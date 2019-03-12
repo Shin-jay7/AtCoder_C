@@ -5,8 +5,8 @@ int main() {
   int A,B;
   scanf("%d %d", &A, &B);
   if (B%A == 0) {
-    printf("%d", A+B);
+    printf("%d\n", A+B);
   } else {
-    printf("%d", B-A);
+    printf("%d\n", B-A);
   }
 }
