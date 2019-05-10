@@ -3,7 +3,9 @@
 #include <math.h>
 
 int main() {
-  int N,i,j,sum[40];
+  int N,i,j;
+  // Note 10**12 is smaller than 2**40
+  int sum[40];
   for (i=0; i<40; i++) sum[i]=0;
   long K,A[100000],A_[100000],ans=0;
   long long func=0;
